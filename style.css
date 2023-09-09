@@ -1,35 +1,54 @@
 /* General styles */
+@font-face {
+    font-family: 'DIN 1451 Mittelschrift Regular';
+    src: url(Fonts/DIN\ 1451\ Mittelschrift\ Regular.ttf)
+}
+h1 {
+    font-family: 'DIN 1451 Mittelschrift Regular';
+}
 .page-header {
     display:block;
     margin: 0;
     padding:0;
-    font-family: Helvetica;
-    /*background-color:aquamarine;*/
 }
-.card-cluster {
+.card-container {
     display: flex;
-    flex-direction: column;
-    /*background-color: rgb(255, 205, 196);*/
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: evenly;
 }
 .card {
     display: flex;
+    flex-direction: column;
     position: relative;
+    height: 400px;
+    width: 300px;
     text-align: left;
     margin:20px;
-    border: 1px solid salmon;
-    
+    background-color: #ffefbd;    
+}
+.card:hover {
+    background-color: #b5d6b2;
+    box-shadow: 0 0 .4rem .4rem rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
 .card-img {
-    width: 30%;
     display: flex;
-    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
     margin-right: 10px;
 }
 .card-data {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-family: 'DIN 1451 Mittelschrift Regular';
 }
 .card-link {
     position: absolute;
