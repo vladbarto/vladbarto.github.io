@@ -3,18 +3,51 @@
         "img": "./Place/Images/bei-der-fussball-em-zeigte.jpg",
         "date": "September 9, 2023",
         "title": "Vezi aici cine arbitreaza Romania - Kosovo",
-        "meta": "Meciul se vede pe Prima TV"
+        "meta": "Meciul se vede pe Prima TV",
+        "href": "./Articles/n1/arbitru.html"
     },
     {
         "img": "./Place/Images/ianis_hagi.jpg",
         "date":"September 21, 2023",
         "title": "Ianis Hagi, la faianta?",
-        "meta": null
+        "meta": null,
+        "href": "/Articles/404.html"
     },
      {
         "img": "./Place/Images/car-cu-boi.jpg",
         "date":"September 25, 2023",
         "title": "Ce treaba avea N. Grigorescu cu fotbalul?",
-        "meta": "Da' chiar, ce treaba avea?"
-    }
+        "meta": "Da' chiar, ce treaba avea?",
+        "href": "/Articles/404.html"
+    },
+    {
+       "img": "./Place/Images/car-cu-boi.jpg",
+       "date":"September 25, 2023",
+       "title": "Ce treaba avea N. Grigorescu cu fotbalul?",
+       "meta": "Da' chiar, ce treaba avea?"
+   },
+   {
+      "img": "./Place/Images/car-cu-boi.jpg",
+      "date":"September 25, 2023",
+      "title": "Ce treaba avea N. Grigorescu cu fotbalul?",
+      "meta": "Da' chiar, ce treaba avea?"
+  },
+  {
+     "img": "./Place/Images/car-cu-boi.jpg",
+     "date":"September 25, 2023",
+     "title": "Ce treaba avea N. Grigorescu cu fotbalul?",
+     "meta": "Da' chiar, ce treaba avea?"
+ },
+ {
+    "img": "./Place/Images/car-cu-boi.jpg",
+    "date":"September 25, 2023",
+    "title": "Ce treaba avea N. Grigorescu cu fotbalul?",
+    "meta": "Da' chiar, ce treaba avea?"
+},
+{
+   "img": "./Place/Images/car-cu-boi.jpg",
+   "date":"September 25, 2023",
+   "title": "Ce treaba avea N. Grigorescu cu fotbalul?",
+   "meta": "Da' chiar, ce treaba avea?"
+}
 ]

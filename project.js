@@ -13,7 +13,7 @@ const postMethod = (articlesArray) => {
         <h2>${item.title}</h2>
     <p>${item.meta}</p>
     </div>
-    <a href="/Articles/404.html" class="card-link"></a> `;
+    <a href="${item.href}" class="card-link"></a> `;
     
         card.append(postElement);
     })
